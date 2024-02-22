@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    background-image: url("https://t3.ftcdn.net/jpg/02/08/52/60/240_F_208526074_WgynacRkHCCqPiOilixpv6pFvXH8I1kf.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.register-form, .login-form {
+    background-color: rgba(250, 217, 232, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    height:50dvh;
+    width: 50dvh;
+
+}
+
+.register-form {
+    margin-bottom: 20px; /* Add some spacing between the forms */
+}
+
+.login-form {
+    margin-left:200px;
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="password"], button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: cursive;
+    font-size: xx-large;
+    background-color: rgba(245, 139, 139, 0.8);
+    border-radius: 10px;
+    padding: 20px; 
+
+}
+
+
+button {
+    background-color: #1a7599;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #67baeb;
+}
